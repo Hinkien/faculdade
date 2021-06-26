@@ -1,0 +1,41 @@
+.formulario {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    margin-top: 3px;
+    width: 200px;
+    font-family: Arial;
+}
+
+.error {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 2px;
+    border: 1px solid #FA5858;
+    margin-top: 3px;
+    width: 200px;
+    font-family: Arial;
+}
+
+.error::placeholder{
+    color: #FA5858;
+    font-family: Arial;
+}
+
+.botao button {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: #088A68;
+    color: white;
+    border-radius: 2px;
+    border: none;
+}
+
+.botao button:hover{
+    background-color: #04B486;
+    cursor: pointer;
+}
